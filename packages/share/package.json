@@ -1,0 +1,18 @@
+{
+    "name": "share",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "vite build -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vite": "^4.4.9"
+    },
+    "devDependencies": {
+        "@types/node": "^20.6.0"
+    }
+}
