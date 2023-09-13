@@ -18339,6 +18339,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
   var reactExports = react.exports;
   function init() {
+    fetch("http://localhost:8090/apis/api.console.halo.run/v1alpha1/plugins/PluginShareWidget/config").then((res) => {
+      console.log(res);
+    });
     fetch("/upload/Roboto-Black.ttf").then(async (res) => {
       const arrayBuffer = await res.arrayBuffer();
       const header = document.querySelector("#header");
