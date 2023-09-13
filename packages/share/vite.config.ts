@@ -19,7 +19,7 @@ export default defineConfig({
         emptyOutDir: false,
         cssCodeSplit: false,
         lib: {
-            entry: path.resolve(__dirname, "src/index.ts"),
+            entry: path.resolve(__dirname, "src/index.tsx"),
             formats: ["iife"],
             name: "Share",
             fileName: (format) => `share-widget.${format}.js`,

@@ -10,9 +10,12 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "react": "^18.2.0",
+        "satori": "^0.10.4",
         "vite": "^4.4.9"
     },
     "devDependencies": {
-        "@types/node": "^20.6.0"
+        "@types/node": "^20.6.0",
+        "@types/react": "^18.2.21"
     }
 }

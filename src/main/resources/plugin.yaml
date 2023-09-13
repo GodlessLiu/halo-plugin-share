@@ -13,8 +13,9 @@ spec:
   # 'homepage' usually links to the GitHub repository of the plugin
   homepage: https://github.com/halo-dev/plugin-starter
   # 'displayName' explains what the plugin does in only a few words
-  displayName: "插件快速开始模板"
-  description: "这是一个插件快速开始模板"
+  displayName: "SHARE"
+  settingName: plugin-share-settings
+  description: "为页面生成海报"
   license:
     - name: "GPL-3.0"
       url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
