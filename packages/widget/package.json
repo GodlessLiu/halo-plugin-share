@@ -1,21 +1,18 @@
 {
-    "name": "share",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "vite build -w"
+        "dev": "vite build --w"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "react": "^18.2.0",
-        "satori": "^0.10.4",
-        "vite": "^4.4.9"
+        "@halo-dev/share-widget": "workspace:^",
+        "vue": "^3.3.4"
     },
     "devDependencies": {
-        "@types/node": "^20.6.0",
-        "@types/react": "^18.2.21"
+        "@types/node": "^20.6.0"
     }
 }
